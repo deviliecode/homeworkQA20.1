@@ -1,1 +1,2 @@
 Перший рядок Hello World!
+Другий рядок Hello QA manual!
