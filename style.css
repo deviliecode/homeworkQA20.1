@@ -162,6 +162,99 @@ body{
 
 
 /* STYLE for gallery.html */
+/* HEADER */
+.contact-header {
+    text-align: center;
+    padding: 20px 160px; 
+    background-color: #edeff1;
+    color: #000000;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.102);
+}
+.contact-header h1 {
+    margin: 0; 
+    font-size: 1.8em;
+}
+/* MAIN */
+.contact-main {
+    max-width: 1268px;
+    margin: 20px auto;
+    background-color: #edeff1;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.102);
+    border-radius: 8px;
+    text-align: center;
+}
+.contact-main p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #d1d5d8;
+}
+.contact-main ul {
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-main li {
+    margin-bottom: 10px;
+    width: 80%;
+}
+.contact-main li a {
+    display: block;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.contact-main li a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+.contact-main li a i {
+    margin-right: 10px;
+    font-size: 1.3em; 
+    width: 25px; 
+}
+.contact-main .fa-linkedin {
+    color: #0A66C2;
+}
+.contact-main .fa-telegram {
+    color: #24A1DE;
+}
+.contact-main .fa-youtube {
+    color: #FF0000;
+}
+.contact-main .fa-instagram {
+    background: linear-gradient(90deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    color: #E4405F;
+}
+/* FOOTER */
+.contact-footer {
+    background-color: #edeff1;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.102);
+    border-radius: 8px;
+    padding: 20px 0px 20px 0px;
+    margin: 20px auto;
+    max-width: 1268px;
+    text-align: center;
+    color: #333;
+}
+.contact-footer p {
+    margin: 0;
+}
 .contact-footer a {
     color: #000000;
     font-size: 1.1em;
