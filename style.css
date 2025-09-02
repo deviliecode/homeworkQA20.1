@@ -107,7 +107,7 @@ body{
 }
 
 
-/* STYLE for contact.html */
+/* STYLE for gallery.html */
 /* HEADER */
 .gallery-header {
     text-align: center;
@@ -126,12 +126,30 @@ body{
     margin: 20px auto;
     padding: 0 20px;
 }
-.gallery-images-container{
+.gallery-images-container {
     display: flex;
-    justify-content: space-between;
-    padding: 20px 40px;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: wrap;
+    padding: 30px 40px;
     background-color: #edeff1;
     box-shadow: 0 8px 6px rgba(0, 0, 0, 0.102);
+    border-radius: 8px;
+}
+.gallery-images-container img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: block;
+}
+.gallery-images-container img:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 2.2);
+    z-index: 10;
 }
 /* FOOTER */
 .gallery-footer {
@@ -161,7 +179,7 @@ body{
 }
 
 
-/* STYLE for gallery.html */
+/* STYLE for contact.html */
 /* HEADER */
 .contact-header {
     text-align: center;
