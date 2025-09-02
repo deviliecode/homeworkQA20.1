@@ -108,6 +108,45 @@ body{
 
 
 /* STYLE for contact.html */
+/* HEADER */
+.gallery-header {
+    text-align: center;
+    padding: 20px 160px; 
+    background-color: #edeff1;
+    color: #000000;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.102);
+}
+.gallery-header h1 {
+    margin: 0; 
+    font-size: 1.8em; 
+}
+/* MAIN */
+.gallery-main {
+    max-width: 1268px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.gallery-images-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #edeff1;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.102);
+}
+/* FOOTER */
+.gallery-footer {
+    background-color: #edeff1;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.102);
+    border-radius: 8px;
+    padding: 20px 0px 20px 0px;
+    margin: 20px auto;
+    max-width: 1268px;
+    text-align: center;
+    color: #333;
+}
+.gallery-footer p {
+    margin: 0;
+}
 .gallery-footer a {
     color: #000000;
     font-size: 1.1em;
